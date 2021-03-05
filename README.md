@@ -11,4 +11,4 @@ This is a place for miscellaneous scripts
 #### 9. WindowsActiveDirectory.py returns users that are/are not part of a group.
 #### 10. BlockChain.py see https://medium.com/@vishnuashok123/building-a-simple-blockchain-using-python-90d27ee50214
 #### 11. UnionIntersection.py takes two lists and returns the Union of the lists and the Intersection of the lists.
-#### 12. explanation_1.md examines time and space somplexity of 6-11.
+#### 12. explanation_1.md examines time and space complexity of 6-11.
