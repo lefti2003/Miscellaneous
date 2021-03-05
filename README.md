@@ -12,3 +12,11 @@ This is a place for miscellaneous scripts
 #### 10. BlockChain.py see https://medium.com/@vishnuashok123/building-a-simple-blockchain-using-python-90d27ee50214
 #### 11. UnionIntersection.py takes two lists and returns the Union of the lists and the Intersection of the lists.
 #### 12. explanation_1.md examines time and space complexity of 6-11.
+#### 13. sqrt.py takes the floor(sqrt(n)), where n>=0 Integer.
+#### 14. rotatedarraysearch.py uses binary search to search through the array for a given number.
+#### 15. rearrange.py Rearrange an array extract 2 numbers, when summed is the largest possible number.
+#### 16. dutchflag.py sorts a list of the form [0,2,2,1,2,0]->[0,0,1,2,2,2]
+#### 17. Trie.ipnyb is a jupyter notebook that performs the autocomplete function found in search toolbars.
+#### 18. minmax.py returns a tuple of the (min, max) of a given list.
+#### 19. explanation_2.md examines time and space complexity of 13-18.
+
