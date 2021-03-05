@@ -1,0 +1,75 @@
+Task 0:
+picking out specific records such as
+sending_text_number = texts[0][0]
+receiving_text_number = texts[0][1]
+This is done in linear time Therefore,
+
+runtime: O(1)
+0.004 seconds or
+4 ms
+
+Task 1:
+
+This involves creating a list and then performing
+set(sending_call_number_list)
+Thus this is also done in Linear time
+
+runtime: O(n)
+0.0045 seconds or 4.5 ms
+
+Task 2:
+
+for num in unique_phone_num:
+    duration_sum = 0
+    for call in calls:
+        if num in call:
+            duration_sum += int(call[3])
+
+runtime: O(n^3)
+
+0.338 seconds or 339 ms
+
+Task 3:
+
+Part A:
+an outer for loop takes O(n) then it calls checkreceivingcall which in turn calls get_codes. The function getcodes has to while loops which are O(n^2). Therefore O(n^3)
+    while i < len(phone_number):
+        if phone_number[i] == '(':
+            while phone_number[i] != ')':
+                i += 1
+                if phone_number[i] == ')'
+
+for row in range(len(calls)):
+    out_call = calls[row][0]
+    received_call = calls[row][1]
+    if out_call.startswith('(080)'):
+        received_code_list.append(checkreceivingcall(received_call))
+Part A:
+runtime O(n^3)
+
+Part B:
+Iterate over a for loop -> O(n)
+
+therefore
+
+runtime: O(n)
+
+Combining Part A/B we take worst case as O(n^3)
+
+0.0111 seconds or 11.1 ms
+
+Task 4:
+
+two operations are performed that we can discuss a set operation
+unique_out_call_tele = set(out_call_tele)
+
+and sorted(unique_out_call_tele)
+
+therefore taking the worst is
+
+runtime : O(n*logn)
+
+0.025 seconds or 25ms
+
+
+
